@@ -1,0 +1,39 @@
+p {
+	color:white;
+}
+
+h1 {
+	color:blue;
+
+}
+
+h3 {
+	color:red;
+}
+
+h2 {
+	color:Fuchsia;
+}
+
+body {
+	font-family: cursive;
+	color:white;
+	background-image: url("images/carlos_suku.png");
+	background-color: black;
+}
+
+table {
+	width: 475px;}
+th, td {
+padding: 7px 5px 5px 5px;}
+th {
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 100%;
+border-bottom: 2px solid #111111;
+border-top: 1px solid #999;
+text-align: left;}
+tr {
+background-color:Gray;}
+tr:hover {
+background-color:Green;}
