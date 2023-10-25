@@ -2,16 +2,114 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">	
-	<title>Under Construction!</title>
-		<link rel="stylesheet" href="../../styles/styles.css">
+	<title>Surveying...</title>
+		<link rel="stylesheet" href="../../styles/survey-style.css">
 
 </head>
 	<body>
-	<h1 style="color:red"><u>THIS IS A PLACEHOLDER</u></h1>
+	<h1>Account Creation</h1>
 	<br>
-		<p style=font-size:20px>Nothing here yet!</p>
-	<h2><a href="../../index.html">
-	Take me home!</a></h2>
+	
+	<form action="confirmation.html">
+		
+		<fieldset>
+		<legend>Username & Password</legend>
+		
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required=""/>
+		
+		<br>
+		<br>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required=""/>
+		
+		</fieldset>
+		
+		<fieldset>
+		<legend>Basic Profile</legend>
+		
+		<label for="display-name">Display name:</label>
+		<input type="text" id="display-name" name="display-name" required=""/>
+		
+		<br>
+		<br>
+		
+		<label for="birth-date">Birth Date:</label>
+		<input type="date" id="birth-date" name="birth-date"/>
+		
+		<br>
+		<br>
+			
+		<label for="icon">Profile Picture:</label>
+		<input type="file" id="icon" name="icon"/>
+		
+		</fieldset>
 
+		<br>
+		<br>
+		
+		
+		<fieldset>
+		<legend>Personal Information</legend>
+		
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" required=""/>
+		
+		<br>
+		<br>
+		
+		<label for="tel">Phone Number:</label>
+		<input type="tel" id="tel" name="tel" pattern="[0-9]{10}" required=""/>
+		
+		<br>
+		<br>
+		
+		<label for="privacy">Profile Privacy:</label>
+		<select name="privacy">
+			<option value="show-all">Show all</option>
+			<option value="hide-email">Hide email only </option>
+			<option value="hide-phone">Hide phone number only</option>
+			<option value="hide-all">Hide all</option>
+		</select>
+		
+		</fieldset>
+		
+		<br>
+		<br>
+		<br>
+		
+		<fieldset>
+		<legend>About you</legend>
+		
+		<label for="bio">
+		User bio: <br>
+		<textarea name="bio" id="bio" cols="100" rows="10" maxlength="1000">Please enter a bio, up to 1000 characters long.
+		</textarea>
+		</label>
+		
+		<br>
+		<br>
+		
+		<label for="hobby">Main hobby:</label>
+		<select name="hobby">
+			<option value="gaming">Gaming</option>
+			<option value="reading">Reading</option>
+			<option value="working-out">Working out</option>
+			<option value="music">Playing music</option>
+			<option value="sleeping">Sleeping</option>
+			<option value="hanging-out">Hanging out</option>
+		</select>
+
+		
+		
+		</fieldset>
+		
+		<br>
+		
+		<input type="submit" name="submit" value="Create Profile!">		
+		</form>
+		
+			<h2><a href="../../index.html">Take me home!</a></h2>
 	</body>
 </html>
