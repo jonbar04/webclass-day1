@@ -1,0 +1,272 @@
+
+
+.inline {
+	display: inline;
+	text-align:right;
+}
+
+p {
+  font-size: 12px;
+  color: #8f98a0;
+	
+}
+
+.gametext{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c6d4df;
+	font-size: 13px;
+	padding-right: 16px;
+	padding-left: 16px;
+	line-height: 18px;
+	
+}
+
+.signin{
+  width: 940px;
+  background: rgba( 0, 0, 0, 0.2 );
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c6d4df;
+  font-size: 12px;
+  position: relative;
+  padding: 5px 0;
+}
+
+
+
+.purchasetext{
+	
+  font-size: 21px;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.purchasesubtext{
+	  color: #8f98a0;
+	  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.buttoncontainer {
+	text-align:right;
+	margin-left: 40%;
+	
+}
+
+.price {
+	display:inline-block;
+	color: white;
+	font-size: 14px;
+	
+}
+
+.discount {
+	  color: #b0aeac;
+	  display:inline-block;
+	
+}
+
+.rightinfo{
+	
+	
+	background: linear-gradient(to right, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.5) 100%);
+	padding: 16px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 18px;
+  
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 35%;
+  border: 1px solid;
+  background-color: #ffb3fa;
+}
+
+div {
+}
+
+.header {
+  background-color: #171d25; 
+  background-position: center top;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin: 0;
+}
+
+.search {
+ 	width: 1000px;
+	height: 70px;
+  background: rgb(72,129,187);
+background: linear-gradient(90deg, rgba(72,129,187,1) 0%, rgba(44,62,170,1) 100%);  }
+
+
+.container {
+  margin-right: 300px;
+  margin-left: 300px;
+  display: inline-block;
+
+}
+
+.game {
+	margin-right: 300px;
+	margin-left: 300px;
+	display: inline-block;
+	overflow: hidden;
+
+  
+
+}
+
+.left {
+	width: 65%;
+    float: left;
+	background: rgba(0, 0, 0, 0.3);
+	overflow-y: scroll;
+
+}
+
+.right {
+	width: 35%;
+    float: left;
+	background: rgba(0, 0, 0, 0.3);
+	font-family: Arial, Helvetica, sans-serif;
+	overflow-y: scroll;
+	
+}
+.clear { clear:both; }
+
+
+.purchase {	
+font-size: 14px;
+color: #acb2b8;
+ background: rgb(91,97,132);
+background: linear-gradient(90deg, rgba(91,97,132,1) 0%, rgba(151,160,169,1) 100%); 
+width: 100%;
+text-align: left;
+
+}
+
+iframe {
+    display:block;
+    width:100%;
+}
+
+img {
+	display: inline;
+	
+}
+
+li {
+  display: inline;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+h2 a:hover {
+  color: white;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: blue;
+}
+
+h1 {
+	color:white;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+	font-size: 26px;
+
+}
+
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c6d4df;
+
+}
+
+h2 {
+	color:#dcdedf;
+	margin-right: 500px;
+	font-size: 15px;
+	text-align: center;
+	font-family: Motiva Sans, Twemoji, Noto Sans, Helvetica, sans-serif;
+	text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+body {
+	font-family: Helvetica;
+	color:  #3CBC8D;
+	background-color: #1b2838;
+	background-image: url("https://cdn.akamai.steamstatic.com/steam/apps/1584090/page_bg_generated_v6b.jpg?t=1691407942");
+	background-repeat: no-repeat;
+
+}
+
+table {
+	width: 200px;}
+
+th {
+font-family: Arial, Helvetica, sans-serif;
+color: #c6d4df;
+font-size: 12px;
+letter-spacing: 0.1em;
+border-bottom: 1px solid #999;
+text-align: left;}
+tr {
+background-color:transparent;}
+
+
+input {
+	color: #67c1f5;
+	background-color: rgba( 103, 193, 245, 0.2 );
+}
+
+button {
+color: #67c1f5;
+background-color: rgba( 103, 193, 245, 0.2 );
+font-size:12px;
+border: none;
+
+	
+}
+
+.cart {
+
+font-size: 15px;
+  color: #d2efa9;
+  text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+  background: rgb(64,239,46);
+  background: linear-gradient( to right, #75b022 5%, #588a1b 95%);
+  display: inline-block
+  }	
+  
+.bundle {
+	font-size: 15px;
+  color: #c3e1f8;
+  text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.3 );
+  background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
+  display: inline-block
+
+}
+
+.square {
+  width: 64px;
+  height: 64px;
+   display: inline-block
+
+	
+	
+}
